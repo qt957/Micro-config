@@ -1,0 +1,14 @@
+﻿spring: 
+ profiles:
+  active:
+  - dev
+---
+spring:
+   profiles: dev
+   application:
+    name: Micro-Service-Skeleton-dev
+---
+spring:
+   profiles: test
+   application:
+    name: Micro-Service-Skeleton-test
