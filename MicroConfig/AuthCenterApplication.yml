@@ -1,7 +1,13 @@
-﻿server:
-  port: 9060
-
+﻿--- #测试
 spring:
+   profiles: test
+   application:
+    name: test
+--- # 权限认证
+server:
+  port: 9060
+spring:
+  profiles: auth
   application:
     name: auth
   zipkin:
