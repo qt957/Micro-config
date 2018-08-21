@@ -1,4 +1,3 @@
 ﻿spring:
-   profiles: test
    application:
     name: Micro-Service-Skeleton-dev
